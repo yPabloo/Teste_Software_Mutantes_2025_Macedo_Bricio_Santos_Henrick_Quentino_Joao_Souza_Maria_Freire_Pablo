@@ -20,7 +20,7 @@ Apart from tests samples, it also has some advanced tests configuration, see
 
 Feel free to refer or reuse this content.
 Attribution is appreciated
-
+pyt
 ## Glossary
 
 - fixture: generated artifact to use in a test, could be data, an object, ...

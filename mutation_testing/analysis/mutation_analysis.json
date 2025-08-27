@@ -1,0 +1,30 @@
+{
+  "total_mutants": 3,
+  "survived_mutants": [
+    {
+      "id": "1",
+      "file": "source/sut.py",
+      "line": 15,
+      "operator": "number_replacement",
+      "description": "Replaced 2 with 3 in return statement"
+    },
+    {
+      "id": "3",
+      "file": "source/models.py",
+      "line": 8,
+      "operator": "string_replacement",
+      "description": "Modified string literal"
+    }
+  ],
+  "killed_mutants": [
+    {
+      "id": "2",
+      "file": "source/sut.py",
+      "line": 10,
+      "operator": "operator_replacement",
+      "description": "Replaced + with -"
+    }
+  ],
+  "survival_rate": 66.66666666666666,
+  "kill_rate": 33.33333333333333
+}
