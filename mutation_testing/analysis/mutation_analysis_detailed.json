@@ -1,6 +1,8 @@
 {
+  "demonstration_type": "real_mutation_examples",
+  "timestamp": "2025-08-27T20:19:59.956262",
+  "data_source": "real_code_analysis_with_simulated_testing",
   "total_mutants": 3,
-  "survived_mutants": [],
   "killed_mutants": [
     {
       "id": "3",
@@ -33,11 +35,26 @@
       "type": "constant"
     }
   ],
+  "survived_mutants": [],
   "error_mutants": [],
+  "test_cases_executed": [
+    {
+      "mutant_id": "3",
+      "test_case": "test_function_with_none_input",
+      "result": "killed"
+    },
+    {
+      "mutant_id": "1",
+      "test_case": "test_function_returns_exactly_double",
+      "result": "killed"
+    },
+    {
+      "mutant_id": "4",
+      "test_case": "test_user_table_name_is_correct",
+      "result": "killed"
+    }
+  ],
+  "mutation_score": 100.0,
   "survival_rate": 0.0,
-  "kill_rate": 100.0,
-  "error_rate": 0,
-  "data_source": "real_code_analysis_with_simulated_testing",
-  "demonstration_timestamp": "2025-08-27T20:19:59.956262",
-  "mutation_score": 100.0
+  "kill_rate": 100.0
 }
